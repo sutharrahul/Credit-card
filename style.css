@@ -93,32 +93,43 @@ h1 span{
     right: 50px;
 }
 .happyuser{
-    width: 45%;
+    width: 50%;
+    padding-top: 20px;
     display: flex;
+    color: #ffff    ;
     padding: 40px 0px 20px 0px;
     justify-content: space-between;
     align-items: center;
 }
 h2{
-    font-size: 30pt;
+    font-size: 25pt;
+}
+.plspink{
+    
+    align-items: center;
+    color: rgba(246,55,236,255);
+    font-size: 40pt;
+    font-weight: 100;
+
 }
 .users{
-  
+    width: 20%;
     align-items: center;
-    font-size: 22pt;
+    font-size: 16pt;
+    font-weight: 400;
 
 }
 .backCards{
     position: absolute;
     height: 100%;
     margin-top: 0px;
-    top: 60px;
-    left: 30%
+    top: 40px;
+    left: 40%
 }
 .frontCards{
 
     height: 100%;
     position: absolute;
-    top: 80px;
-    left: 50%;
+    top: 90px;
+    left: 52%;
 }
