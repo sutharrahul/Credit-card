@@ -121,14 +121,14 @@ h2{
 }
 .backCards{
     position: absolute;
-    height: 100%;
+    height: 640px;
     margin-top: 0px;
     top: 40px;
     left: 40%
 }
 .frontCards{
 
-    height: 100%;
+    height: 640px;
     position: absolute;
     top: 90px;
     left: 52%;
