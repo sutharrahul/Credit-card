@@ -17,14 +17,15 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .Navbar-container{
-    padding: 5px 0px;
+    padding: 15px 55px 15px 55px;
     background-color: #0D0D0D;
-    margin-left: 50px;
-    margin-right: 100px;
-    height: 15vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between; 
+    z-index: 1;
+    position: sticky;
+    top: 0;
 }
 .imglogo{
     height: 40px;
@@ -43,10 +44,12 @@ ul button{
     background: none;
     color: #ffff;
     font-size: 10pt;
-    position: absolute;
-    margin-left: 90px;
+    z-index: 1;
+    /* margin-right: 50px; */
 }
 .imgcnt{
+    position: absolute;
+    margin-left: 70px;
     height: 25px;
     filter: blur(0.7px);
 }
