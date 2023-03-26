@@ -45,7 +45,6 @@ ul button{
     color: #ffff;
     font-size: 10pt;
     z-index: 1;
-    /* margin-right: 50px; */
 }
 .imgcnt{
     position: absolute;
@@ -171,4 +170,46 @@ div h3{
     width: 40%;
     font-size: 17.5pt;
     font-weight: 200;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    font-size: 18pt;
+    font-weight: 500;
+}
+.bannerfeatures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 350px;
+    background-color: #363535;
+    border: 1px solid;
+    border-color: #fffff;
+}
+.cldeasy{
+    margin-left: 33px;
+    margin-right: 33px;
+}
+.imgcloude{
+    height: 150px;
+}
+.cloude{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 350px;
+    /* padding: 70px 100px 70px 100px; */
+    background: linear-gradient(to bottom right, #313030 0%, #777676 100%);
+    border: 1px solid;
+    border-color: #ffff #504f4f #504f4f #ffff ; 
+    z-index: 1;
+    position: relative;
+    bottom: 50px;
 }
