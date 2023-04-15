@@ -206,3 +206,27 @@ div h3{
     position: relative;
     bottom: 50px;
 }
+.vcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fceffb;
+    padding: 100px 0px;
+}
+.uniq{
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+.uniqq{
+    font-size:60px ;
+    font-weight: 600;
+    color: #f637ec;
+}
+.prunique{
+    color: #303030;
+    padding: 10px 400px 0px;
+    font-size: 16px;
+}
