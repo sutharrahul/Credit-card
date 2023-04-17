@@ -120,6 +120,7 @@ h2{
 
 }
 .backCards{
+    display: block;
     position: absolute;
     height: 640px;
     margin-top: 0px;
@@ -127,7 +128,7 @@ h2{
     left: 30%
 }
 .frontCards{
-
+    display: block;
     height: 640px;
     position: absolute;
     top: 90px;
@@ -214,20 +215,21 @@ h2{
     padding: 100px 0px;
 }
 .uniq{
+    width: 60%;
     color: #0D0D0D;
     text-align: center;
-    font-size: 60px;
+    font-size: 50pt;
     font-weight: 400;
 }
 .uniqq{
-    font-size:60px ;
+    font-size:50pt ;
     font-weight: 600;
     color: #f637ec;
 }
 .prunique{
     color: #303030;
     padding: 10px 400px 0px;
-    font-size: 16px;
+    font-size: 11pt;
 }
 .ratingmain{
     display: flex;
@@ -345,4 +347,67 @@ h2{
     margin: 5px;
     border-radius: 50%;
     background-color: #333232;
+}
+.rctn1{
+   display: block;
+   position: absolute;
+   width: 100%;
+}
+.rctn2{
+    position: relative;
+    width: 100%;
+    
+}
+.dimnd{
+    /* display: block; */
+    position: relative;
+    width: 100%;
+    /* bottom: 520px; */
+}
+.dimond{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -530px;
+}
+.customing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -400px;
+}
+.custml{
+    text-align: center;
+    font-size: 50pt;
+    font-weight: 500;
+    color: #fafafa;
+}
+.custmsp{
+    color: #0D0D0D;
+    font-weight: 600;
+}
+footer{
+
+    padding: 200px 0px 80px 0px;
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+footer >div{
+    width: 30%;
+    margin-left: 50px;
+}
+footer > ul{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    
+}
+footer >ul>li{
+    margin: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 200;
 }
